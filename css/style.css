@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100vw;
+}
+
+body {
+    border: 1px solid #bb1919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
+body p {
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #bb1919;
+    min-width: 97vw;
+    max-width: 97vw;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 15vw;
+}
+
+.buttons .a, .b, .c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons #a-btn, #b-btn, #c-btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border: 1px solid #bb1919;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.buttons #a-top, #b-top, #c-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+.buttons img {
+    width: 300px;
+    height: 250px;
+}
+
+.buttons #a-top button, #b-top button, #c-top button {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border: 1px solid #bb1919;
+    background-color: #fff;
+    cursor: pointer;
+}
